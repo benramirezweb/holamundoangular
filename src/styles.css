@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+
+*{
+    padding: 0px;
+    margin:0px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
+}
+app-header,app-footer{
+    background: rgb(197, 237, 255);
+    height: 5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(31, 160, 160);
+}
+app-body{
+    padding: 20px;
+    height: 90vh;
+    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+}
